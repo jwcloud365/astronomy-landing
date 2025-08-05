@@ -66,10 +66,19 @@ export const TESTIMONIALS: Testimonial[] = [
 ];
 
 export const NAVIGATION_ITEMS = [
-  { label: 'Features', href: '#features' },
-  { label: 'Live Sky', href: '#live-data' },
-  { label: 'Testimonials', href: '#testimonials' },
-  { label: 'Download', href: '#download' }
+  { label: 'Features', href: '#features', type: 'scroll' },
+  { label: 'Live Sky', href: '#live-data', type: 'scroll' },
+  { label: 'Testimonials', href: '#testimonials', type: 'scroll' },
+  { label: 'Download', href: '#download', type: 'scroll' }
+];
+
+export const FEATURE_PAGES = [
+  { label: 'Star Maps', href: '/star-maps' },
+  { label: 'AR Guide', href: '/ar-guide' },
+  { label: 'Celestial Events', href: '/celestial-events' },
+  { label: 'Weather', href: '/weather-integration' },
+  { label: 'Journal', href: '/observation-journal' },
+  { label: 'Learning', href: '/learning-resources' }
 ];
 
 export const SOCIAL_LINKS = [
