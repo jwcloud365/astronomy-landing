@@ -75,6 +75,7 @@ export const NAVIGATION_ITEMS = [
 export const FEATURE_PAGES = [
   { label: 'Star Maps', href: '/star-maps' },
   { label: 'AR Guide', href: '/ar-guide' },
+  { label: 'Solar System', href: '/solar-system' },
   { label: 'Celestial Events', href: '/celestial-events' },
   { label: 'Weather', href: '/weather-integration' },
   { label: 'Journal', href: '/observation-journal' },
